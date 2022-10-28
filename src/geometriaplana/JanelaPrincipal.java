@@ -30,14 +30,15 @@ public class JanelaPrincipal extends JanelaSecundaria{
     JButton b6 = new JButton("CÍRCULO");
 
     JLabel legenda = new JLabel("Clique no botão correspondente à 'FORMA");
-    JLabel legenda2 = new JLabel("GEOMÉTRICA' desejada:");
+    JLabel legenda2 = new JLabel(" GEOMÉTRICA' desejada:");
     
     public JanelaPrincipal() {
         JFrame janela = new JFrame();
         janela.setTitle("Geometria Plana");
-        janela.setSize(500, 500);
+        janela.setSize(500, 550);
         janela.setLocationRelativeTo(null);
         janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        janela.setResizable(false);
         
         janela.setLayout(new GridLayout(7, 2));
         
